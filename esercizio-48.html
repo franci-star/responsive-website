@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="preload" href="./font/Redressed-Regular.ttf" as="font" type="font/woff">
+        <link rel="preload" href="./font/Lato-Regular.ttf" as="font" type="font/woff">
+        
+
+        <title>Joe's pizza</title>
+
+    </head>
+
+    <body>
+
+        <!-- FIRST AREA -->
+
+        <div class="first-area">
+
+            <div class="top-header" id="top-header">
+
+                <div class="container">
+
+                    <header>
+ 
+                        Joe's pizza
+                        <i class="material-icons">local_pizza</i>
+        
+                    </header>
+
+                </div>
+
+            </div>
+
+            <div class="container">
+    
+                <section>
+    
+                    <h1 class="main-heading">
+                        "You can't buy happiness.<br>But you can buy pizza,<br>and that's kind of the same thing."
+                    </h1>
+    
+                    <form class="booking">
+                        <div class="booking__inputs">
+                            <div class="booking__input">
+                                <label for="choose-date">PICK A DATE</label>
+                                <input type="date" id="choose-date"/>
+                            </div>
+    
+                            <div class="booking__input">
+                                <label for="persons">PERSONS</label>
+                                <select name="personNumber" id="persons">
+                                    <option value="1">1 person</option>
+                                    <option value="2">2 persons</option>
+                                    <option value="3">3 persons</option>
+                                    <option value="4">4 persons</option>
+                                    <option value="5">5 persons</option>
+                                    <option value="6">6 persons</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <button class="booking__button" onclick="nodefault()">BOOK NOW</button>
+                    </form>
+    
+                </section>
+    
+            </div>
+
+        </div>  
+
+        <!-- ABOUT US -->
+
+        <section class="about-us">
+
+            <div class="container">
+
+                <div class="section-name">About us</div>
+
+                <div class="about-us__content">
+
+                    <div class="about-us__content--left">
+
+                        <p>Established in 1975 by Joe Pozzuoli, who is originally from Naples, Italy, the birthplace of pizza, Joe's Pizza is a "Greenwich Village institution" offering the classic New York slice for over 37 years.  First,  we served our customers from our corner location at Bleecker and Carmine Street and now three doors down at 7 Carmine Street.  At 75 years of age, Joe Pozzuoli still owns and operates the restaurant.</p>
+
+                        <img src="./immagini/by-Marialaura-Gionfriddo-from-Unsplash.jpg" alt="by-Marialaura-Gionfriddo-from-Unsplash">
+
+                    </div>
+
+                    <div class="about-us__content--right">
+
+                        <p>Joe's Pizza is a perennial top 10 listing in restaurant guides and publications such as Time Out New York and New York Magazine. NEW YORK MAGAZINE named JOE’S PIZZA "Best of New York" and in subsequent reviews referred to us as "the quintessential New York slice." In 2009 GQ Magazine listed Joe's Pizza as one the "Best 25 Pizzas on Earth."</p>
+
+                        <p>Throughout the years Joe's Pizza in Greenwich Village has become just as popular with visitors and tourists as it is with native New Yorkers who know where to come for an authentic New York street slice.</p>
+
+                        <p>After 38 years, Joe's is still an independently owned business at only one location, personally supervised by founder Joe himself.   We still are what we've always been: a classic NY slice joint.  No glossy corporate backing, no fancy pants pies, no pretentious nonsense and no gimmicky budget pizza either.   We are tried and true - the real deal.</p>
+
+                        <p>For more info or inquiries, please email joe@joespizzanyc.com or voice mail at (347)312-4955. This phone number is for brand contact and information only. For deliveries and pickups please call the stores directly.</p>
+
+                        <img src="./immagini/by-Salvatore-Monetti-from-Pixabay.jpg" alt="by-Salvatore-Monetti-from-Pixabay">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MENUS -->
+
+        <section class="menus-section">
+
+            <div class="container">
+
+                <div class="section-name">Menu</div>
+
+                <div class="menus__header">
+
+                    <h2>Pizza and much more.</h2>
+
+                    <button class="text-button">
+
+                        See all Menus
+
+                        <i class="material-icons">trending_flat</i>
+
+                    </button>
+
+                </div>
+
+                <div class="menus">
+
+                    <a href="#" class="menu-card menu-card--col-2">
+
+                        <img src="./immagini/by-Kamran-Aydinov-from-Freepik_1.jpg" alt="by-Kamran-Aydinov-from-Freepik">
+
+                        <div class="menu-card__details">
+
+                            <div class="menu-card__name">Premium Menu</div>
+
+                            <div class="menu-card__price">$65</div>
+
+                        </div>
+
+                    </a>
+
+                    <a href="#" class="menu-card">
+
+                        <img src="./immagini/by-Azerbaijan-Stockers-from-Freepik_1.jpg" alt="by-Azerbaijan-Stockers-from-Freepik">
+
+                        <div class="menu-card__details">
+
+                            <div class="menu-card__name">King Menu</div>
+
+                            <div class="menu-card__price">$55</div>
+
+                        </div>
+
+                    </a>
+
+                    <a href="#" class="menu-card">
+
+                        <img src="./immagini/by-Azerbaijan-Stockers-from-Freepik_2.jpg" alt="by-Azerbaijan-Stockers-from-Freepik">
+
+                        <div class="menu-card__details">
+
+                            <div class="menu-card__name">Princess Menu</div>
+
+                            <div class="menu-card__price">$35</div>
+
+                        </div>
+
+                    </a>
+
+                    <a href="#" class="menu-card">
+
+                        <img src="./immagini/by-Kamran-Aydinov-from-Freepik_2.jpg" alt="by-Kamran-Aydinov-from-Freepik">
+
+                        <div class="menu-card__details">
+
+                            <div class="menu-card__name">Lunch Menu</div>
+
+                            <div class="menu-card__price">$25</div>
+
+                        </div>
+
+                    </a>
+
+                    <a href="#" class="menu-card">
+
+                        <img src="./immagini/by-Azerbaijan-Stockers-from-Freepik_3.jpg" alt="by-Azerbaijan-Stockers-from-Freepik">
+
+                        <div class="menu-card__details">
+
+                            <div class="menu-card__name">Baby Menu</div>
+
+                            <div class="menu-card__price">$15</div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TESTIMONIAL -->
+
+        <section class="testimonials">
+
+            <div class="container">
+
+                <div class="section-name">Testimonials</div>
+
+                <h2>What clients say about us.</h2>
+
+                <div class="feedback">
+
+                    <div class="feedback-card">
+
+                        <div class="feedback-card__dialog">
+
+                            <div class="feedback-card__dialog__title">The best!</div>
+
+                            <div class="feedback-card__dialog__content">"Without a doubt this is the best pizza in the entire city."</div>
+
+                        </div>
+
+                        <div class="feedback-card__user">
+                            
+                            <div class="feedback-card__user__details">
+
+                                 <div class="feedback-card__user__name">Jack Affleck</div>
+
+                                <div class="feedback-card__user__location">from California</div>
+
+                            </div>
+
+                            <img src="./immagini/person-1.png" alt="Person 1">
+
+                        </div>
+
+                    </div>
+
+                    <div class="feedback-card">
+
+                        <div class="feedback-card__dialog">
+
+                            <div class="feedback-card__dialog__title">Best experiences!</div>
+
+                            <div class="feedback-card__dialog__content">"This is the one. This is where you wanna come for the best slice of pizza in Manhattan."</div>
+
+                        </div>
+                            
+                        <div class="feedback-card__user">
+                            
+                            <div class="feedback-card__user__details">
+
+                                <div class="feedback-card__user__name">Katy Peterson</div>
+
+                                <div class="feedback-card__user__location">from New Jersey</div>
+
+                            </div>
+
+                            <img src="./immagini/person-2.png" alt="Person 2">
+
+                        </div>  
+
+                    </div>
+
+                    <div class="feedback-card">
+
+                        <div class="feedback-card__dialog">
+
+                            <div class="feedback-card__dialog__title">Delicious!</div>
+
+                            <div class="feedback-card__dialog__content">"For $2, you get a slice of hot pizza, topped with tomato sauce and fresh mozzarella."</div>
+
+                        </div>
+                            
+                        <div class="feedback-card__user">
+                            
+                            <div class="feedback-card__user__details">
+
+                                <div class="feedback-card__user__name">Simon Ripa</div>
+
+                                <div class="feedback-card__user__location">from New York</div>
+
+                            </div>
+
+                            <img src="./immagini/person-3.png" alt="Person 3">
+
+                        </div>
+  
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div class="container">Thanks @Thu Nghiem - https://www.youtube.com/watch?v=CrryRvjYsgc</div>
+
+        </footer>
+
+        <script>
+
+            window.onscroll = () => {
+                if(window.pageYOffset > 50) {
+                    document.getElementById("top-header").classList.add("top-header--black-background");
+                } else {
+                    document.getElementById("top-header").classList.remove("top-header--black-background");
+                }
+            }
+
+            function nodefault() {
+                event.preventDefault();
+            }
+
+        </script>
+
+    </body>
+
+</html>
